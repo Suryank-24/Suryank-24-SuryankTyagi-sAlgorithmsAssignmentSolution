@@ -15,6 +15,7 @@ public class DriverClassMain {
 		System.out.println("Enter the no. of Companies :");
 		Scanner sc = new Scanner(System.in);	
 		noOfCompanies = sc.nextInt();
+		
 		double[] priceArray = new double[noOfCompanies];
 		boolean[] profitArray = new boolean[noOfCompanies];
 		
